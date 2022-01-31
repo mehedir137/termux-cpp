@@ -9,7 +9,7 @@ chsh -s zsh
 echo 'Linking vim to neovim'
 ln -s '/data/data/com.termux/files/usr/bin/nvim' '/data/data/com.termux/files/usr/bin/vim'
 
-cd '/data/data/com.termux/'
+cd '/data/data/com.termux/files'
 
 echo 'Downloading configurations...'
 curl 'https://raw.githubusercontent.com/mehedir137/termux-cpp/main/termux.tar.gz' -o 'termux.tar.gz'
